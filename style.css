@@ -1,0 +1,216 @@
+div.navtop{
+	display: flex;
+	background-color: #f2f2f2;
+	color: black;
+	justify-content: space-between;
+	padding: 6px;
+	height: 48px;
+	width: 1507px;
+}
+div.nav {
+	display: flex;
+	background-color: #000033;
+	height: 100%;
+	justify-content: flex-start;
+	color: white;
+	flex-direction: column;
+	width: 61px;
+	position: absolute;
+}
+
+div.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	color: #f5f5f5;
+	background-color: #1c96a3;
+	position: relative;
+	left: 61px;
+	height: 162px;
+	width: 1458px;
+	
+
+}
+
+body {
+	margin: 0;
+	font-family:"IBM Plex Mono",Menlo,"DejaVu Sans Mono","Bitstream Vera Sans Mono",Courier,monospace;
+	font-weight: bold;
+}
+
+h1 {
+
+	padding-left: 20px;
+	font-size: 45px;
+	padding-top: 10px;
+}
+.bit {
+	padding: 8px 0 8px 8px;
+}
+
+.material-icons.md-light
+ { color: rgba(255, 255, 255, 1);
+ 	position: relative;
+ 	padding-left: 19px;
+ 	padding-bottom: 20px;
+ 	padding-top: 25px;
+ 	padding-right: 18px;
+ 	z-index: 
+
+ }
+
+ .material-icons.md-light:hover {
+ 	background-color: #ddd;
+ 	opacity: 100%;
+ 	z-index: 3;
+ }
+
+
+.navbar2 {
+  overflow: hidden;
+  background-color: #f2f2f2;
+}
+
+
+}
+.material-icons.md-dark.setting
+ { color: rgba(0, 0, 0, 0.54);
+   font-size: 20;
+   position: absolute;
+   margin-top: -33px;
+   margin-left: 15px; }
+
+ .material-icons.md-dark.note
+ { color: rgba(0, 0, 0, 0.54);
+   font-size: 20px;
+   position: absolute;
+   margin-top: -33px;
+   margin-left: 15px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #f2f2f2;
+  color: black;
+  padding: 16px;
+  padding-right: 80px;
+  margin-right: 5px;
+  font-size: 16px;
+  border: none;
+  border-left-style: solid;
+  border-color: lightgrey;
+  z-index: 2;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  padding-left:;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: right;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: lightgrey;}
+
+.material-icons.md-dark.setting {
+color: rgba(0, 0, 0, 0.54);
+   font-size: 20;
+   position: absolute;
+   margin-top: -34px;
+   margin-left: 14px;
+}
+
+
+.material-icons.md-dark.exit
+ { color: rgba(0, 0, 0, 0.54);
+   font-size: 20;
+   position: absolute;
+   margin-top: -35px;
+   margin-left: 13px;
+ } 
+ .material-icons.md-dark.credits
+ { color: black;
+   font-size: 32px;
+   position: absolute;
+   margin-top:9px;
+   margin-left:1270px;
+
+ } 
+.material-icons.md-dark.arrow
+ { color: black;
+   font-size: 32px;
+   position: absolute;
+   margin-top: 8px;
+   margin-left: 1450px;
+   z-index: 4;
+}
+.navtop p {
+	position: absolute;
+	padding-left: 1310px;
+	padding-top:0px;
+}
+.toptext {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-self: flex-start;
+	margin-top: 65px;
+	margin-left: 120px;
+	margin-right: 80px;
+}
+
+.bottext {
+	display: flex;
+	justify-content: space-around;
+	margin-left: 120px;
+	margin-right: 80px;
+}
+
+.id, .name, .open {
+	display: flex;
+	flex-direction: column;
+	width: 34%;
+}
+
+.bottext p {
+	border-bottom-style: solid;
+	border-color: lightgrey;
+	padding-bottom: 20px;
+	margin-top: 5px;
+}
+
+.toptext h4 {
+	border-bottom-style: solid;
+	border-color: lightgrey;
+	padding-bottom: 20px;
+	margin-top: 5px;
+	width: 40%;
+
+
+}
+}
